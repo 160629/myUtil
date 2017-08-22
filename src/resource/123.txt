@@ -1,0 +1,36 @@
+ssad vdsf Ads vcsr
+
+commons-fileupload commons-io   上傳與下載
+
+jstl  jstl
+
+cxf-rt-core
+cxf-rt-bindings-soap
+cxf-rt-frontend-jaxws
+cxf-rt-frontend-simple
+cxf-rt-wsdl
+cxf-rt-databinding
+xmlschema-core
+asm
+wsdl4j
+cxf-rt-transports-udp
+cxf-rt-transports-http-jetty
+cxf-rt-transports-http
+jetty-continuation
+jetty-http
+jetty-io
+jetty-security
+jetty-server
+jetty-util
+jaxb-xjc
+jaxb-core
+jaxb-impl.ja
+woodstox-core-asl
+stax2-api
+slf4j-*
+jcl-over-slf4j
+
+
+log4j
+slf4j-api
+slf-log4j
