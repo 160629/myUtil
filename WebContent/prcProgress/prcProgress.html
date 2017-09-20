@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
+<html xmlns="http://www.w3.org/1999/xhtml">  
+<head>  
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />  
+<title>无标题文档</title>  
+<link  href="../css/prcProgress-default.css" rel="stylesheet" />  
+<script type="text/javascript" src="../static/jquery-1.11.3.min.js"></script>  
+<script type="text/javascript" src="../js/prcProgress.js"></script>  
+<script type="text/javascript">  
+    $(function(){  
+        $("#test").prcProgress({data:{"categoryName":"编制状态","percent":0.34,"categoryInnerText":"发放冻结"},onClick:function(a){  
+            alert(a.categoryName);  
+        }});  
+        //可取data对象的任意属性  
+        $("#test2").prcProgress({data:{"percent":"15.3242%",categoryName:"橙色",categoryInnerText:"橙色",aaa:"哈哈哈哈"},prcBarBackColor:"#3399CC",onClick:function(a){  
+            alert(a.aaa);  
+        }});  
+        $("#test3").prcProgress({data:{"percent":"0.234",categoryName:"橙色",categoryInnerText:"橙色"},prcBarBackColor:"#3399CC",onClick:function(a){  
+            alert(a.categoryName);  
+        }});  
+        $("#test4").prcProgress({data:{"percent":0.612,categoryName:"橙色",categoryInnerText:"橙色"},prcBarBackColor:"#3399CC",onClick:function(a){  
+            alert(a.categoryName);  
+        }});  
+        $("#test5").prcProgress({data:{"percent":0.22,categoryName:"橙色",categoryInnerText:"橙色"},prcBarDefClass:"red",onClick:function(a){  
+            alert(a.categoryName);  
+        }});  
+        $("#test6").prcProgress({data:{"percent":0.22,categoryName:"橙色",categoryInnerText:"橙色"},prcBarDefClass:"green",onClick:function(a){  
+            alert(a.categoryName);  
+        }});  
+        $("#test7").prcProgress({data:{"percent":0.6532,categoryName:"橙色",categoryInnerText:"橙色"},prcBarDefClass:"black",onClick:function(a){  
+            alert(a.categoryName);  
+        }});  
+});  
+</script>  
+</head>  
+  
+<body>  
+    <div id="test"></div>  
+    <div id="test2"></div>  
+    <div id="test3"></div>  
+    <div id="test4"></div>  
+    <div id="test5"></div>  
+    <div id="test6"></div>  
+</body>  
+</html>  
