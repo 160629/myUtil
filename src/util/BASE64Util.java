@@ -9,11 +9,6 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-
-
-
-
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -62,7 +57,6 @@ public class BASE64Util {
 			bout.close(); 
 		}
 	}
-	
 	public static void Base64ToPDf(String base64Content,String filePath)throws Exception{
 		 BASE64Decoder decoder = new BASE64Decoder();
 	        BufferedInputStream bis = null;

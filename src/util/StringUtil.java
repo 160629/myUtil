@@ -14,6 +14,15 @@ public class StringUtil {
     } 
     
     public static void main(String[] args) {
+    	
+        // 已分配内存中的剩余空间 ：
+        long free = Runtime.getRuntime().freeMemory();
+        // 分配内存：
+        long total = Runtime.getRuntime().totalMemory();
+        // 最大内存：
+        long max = Runtime.getRuntime().maxMemory();
+        // 已占用的内存：
+        long used = total - free;
     	System.out.println(haoAddOne_2("2017010101"));
 	}
 }

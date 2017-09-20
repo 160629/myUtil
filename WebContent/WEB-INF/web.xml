@@ -52,4 +52,32 @@
 <servlet-name>DownLoadServlet</servlet-name>
 <url-pattern>/servlet/DownLoadServlet</url-pattern>
 </servlet-mapping> 
+
+	  <!-- 接收邮件servlet -->
+      <servlet> 
+        <servlet-name>DisplayHead</servlet-name> 
+        <servlet-class>send.receiver.DisplayHead</servlet-class> 
+    </servlet>      
+    <servlet-mapping> 
+        <servlet-name>DisplayHead</servlet-name> 
+        <url-pattern>/DisplayHead</url-pattern> 
+    </servlet-mapping> 
+       
+    <servlet> 
+        <servlet-name>DisplayContent</servlet-name> 
+        <servlet-class>send.receiver.DisplayContent</servlet-class> 
+    </servlet>      
+    <servlet-mapping> 
+        <servlet-name>DisplayContent</servlet-name> 
+        <url-pattern>/DisplayContent</url-pattern> 
+    </servlet-mapping>      
+       
+    <servlet> 
+        <servlet-name>HandleAttact</servlet-name> 
+        <servlet-class>send.receiver.HandleAttact</servlet-class> 
+    </servlet>      
+    <servlet-mapping> 
+        <servlet-name>HandleAttact</servlet-name> 
+        <url-pattern>/HandleAttact</url-pattern> 
+    </servlet-mapping>
 </web-app>
